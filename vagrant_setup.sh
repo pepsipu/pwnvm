@@ -107,10 +107,6 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
 ## GDB Tools
-# Install peda
-git clone https://github.com/longld/peda.git
-# Install pwndbg
-git clone https://github.com/zachriggle/pwndbg
 # Install gef
 git clone https://github.com/hugsy/gef.git
 # Install voltron
@@ -142,3 +138,6 @@ sudo apt-get -y install libc6:i386 libc6-dbg:i386 libncurses5:i386 libstdc++6:i3
 git clone https://github.com/Z3Prover/z3.git && cd z3
 python scripts/mk_make.py --python
 cd build; make && sudo make install
+
+# Install vim
+sudo apt install -y vim
